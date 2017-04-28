@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,800');
 /*Google font
 https://fonts.google.com/specimen/Dosis?selection.family=Dosis
 */
@@ -67,9 +67,29 @@ body{
 }
 
 .table{
+    position: relative;
+    margin-left: 30%;
     display: inline-block;
     width:70%;
-    text-align: center; 
+    text-align: left; 
+}
+
+.list{
+    position: absolute;
+    margin-left:20px;
+}
+
+.contact{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align:center;
+}
+
+.contact h2 p{
+    width:800px;
+    color:black;
+    align:center;
 }
 
 .left-word a{  
@@ -80,6 +100,11 @@ body{
     font-size: 20px;
     color: #333;
     text-decoration: none;
+}
+
+#top-bar{
+    display: block;
+     position:fixed;    
 }
 
 .left-word a:hover{
@@ -99,6 +124,16 @@ a:hover{
 .profile{
     height: 30%;
     border-radius: 20%;
+}
+
+.highlight{
+    font-weight: bold; 
+}
+
+.date{
+    font-style: italic;
+    padding-left:20px ;
+    text-align: right;
 }
 
 .soc {

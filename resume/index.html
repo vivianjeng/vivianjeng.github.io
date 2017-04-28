@@ -6,13 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ya-wen Jeng's blog</title>
     <link rel="stylesheet" href="../css/main.css">
+    <script type='text/javascript' src="jquery-1.9.1.min.js"></script>
+    <script type='text/javascript'>
+        $(function(){
+　       $(window).load(function(){
+　　     $(window).bind('scroll resize', function(){
+　　      var $this = $(this);
+　　      var $this_Top=$this.scrollTop();
+
+    　　if($this_Top < 100){
+　　　 $('#top-bar').stop().animate({top:"-65px"});
+　　  　}
+　　　　    if($this_Top > 100){
+　　　　    $('#top-bar').stop().animate({top:"0px"});
+　　　  }
+　   　}).scroll();
+　      });
+        }); 
+</script>
 </head>
 <body>
     <div class="banner">
         <h2 class="title">Ya-wen, Jeng <span class"chinese">鄭雅文<span> 's Blog </h2>
         <h4 class="second">Resume</h4>
     </div>
-    <nav class="left">
+    <nav class="left" id="top-bar">
         <div class="left-word">
             <a href="../intro/">About me</a>
             <a href="#">Resume</a>
@@ -29,5 +47,178 @@
             </ul>
         </div>
     </nav>
+    <table class="table">
+        <tr>
+            <td colspan="2">
+                <h3>Education</h3>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="highlight">National Taiwan University</span><span>, Taipei, Taiwan</span>
+                <p class="highlight">Master of Computer Science & Information Engineering</p>
+            </td>
+            <td>
+                <p class="date">September 2017 - July 2019</p>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <span class="highlight">National Taiwan University</span><span>, Taipei, Taiwan</span>
+                <p class="highlight">Bachelor of Economics GPA 3.9/4.3</p>
+            </td>
+            <td>
+                <p class="date">September 2013 - July 2017</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <ui>
+                    <li class="list" style:"display:inline-block; width: 400px;">Relevant coursework: Programming Design, Web User Interface Design, Basic Game Programming,
+                        <br> Interactive Web Programming, Algorithm Design and Analysis, Data Structures and Algorithms</li>
+                </ui>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <br><br>
+                <h3>Language</h3>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>Mandarin Chinese (native)</p>
+                <p>English (15yrs/ <span class="highlight">TOEFL 87/120, GEPT High-intermediate Level </span>)</p> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h3>Activity</h3>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="highlight">Vice Minister of Activities Department<br></span><span>, Student Association of Economics Department</span>
+                <br>
+                <ui class="list">
+                    <li>Organized events for Economics department students.</li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">September 2014 - July 2015</p>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <br><br>
+                <span class="highlight">Team Vice Captain<br></span><span>, Basketball team representing for the Department of Economics</span>
+                <br>
+                <ui class="list">
+                    <li>Site Coordination and general affairs management.</li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">July 2015 - June 2016</p>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <br><br>
+                <span class="highlight">Head of the Propaganda Department<br></span><span>, Night Activity of Economics Department</span>
+                <br>
+                <ui class="list">
+                    <li>Run and managed Facebook fan page and filmed vedios for this event.</li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">January 2015 - March 2015</p>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <br><br>
+                <span class="highlight">Members of Brand Design Department<br></span><span>, HackNTU club</span>
+                <br>
+                <ui class="list">
+                    <li>Designed image and logo, assisted to hold events.</li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">September 2014 - December 2014</p>
+            </td>   
+        </tr>
+        <tr>
+            <td colspan="2">
+                <br>
+                <h3>Ｗork Experience</h3>
+                <hr>
+            </td>
+        </tr>
+            <td>
+                <br>
+                <span class="highlight"><a href="https://speech.ntu.edu.tw/ntuspeech/" style="text-decoration:none;">NTU Speech</a></span><span>, Part-time Student</span>
+                <br>
+                <ui class="list">
+                    <li>Recorded speech vedios in NTU, edited films, and managed backstage.</li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">September 2015 - August 2016</p>
+            </td>
+        <tr>
+        </tr>
+            <td>
+                <br>
+                <span class="highlight"><a href="http://www.bite2eatpizza.com/" style="text-decoration:none;">Bite 2 Eat Pizza</a></span><span>, Part-time Student</span>
+            </td>
+            <td>
+                <p class="date">March 2013 - May 2013</p>
+            </td>
+        <tr>
+        <tr>
+            <td colspan="2">
+                <h3>Competition</h3>
+                <hr>
+            </td>
+        </tr>
+            <td>
+                <br>
+                <span class="highlight">14th ATCC Case Competition with Cathay Financial Holdings</span><br><span>, Preliminary Selection</span>
+                <br>
+                <ui class="list">
+                    <li>Contacted in the field of Fintech. </li>
+                </ui>
+            </td>
+            <td>
+                <p class="date">March 2015 - March 2016</p>
+            </td>
+        <tr>
+        </tr>
+            <td>
+                <br><br>
+                <span class="highlight">13th ATCC Case Competition with Everrich</span><span>, Match Selection</span>
+                <br>
+                <ui class="list">
+                    <li>Won the 7th place out of 30 groups in the match selection.</li>
+                </ui>
+                <br>
+                <br>
+            </td>
+            <td>
+                <p class="date">March 2015 - June 2015</p>
+            </td>
+        <tr>
+    </table>
+    <div class="contact" align="center">
+        <p>contact information</p>
+        <p src="b02303042@ntu.edu.tw" >b02303042@ntu.edu.tw
+        <br>
+        0978175180</p>
+   </div>
 </body>
 </html>
