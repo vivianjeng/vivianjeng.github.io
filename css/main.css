@@ -102,13 +102,22 @@ body{
 
 #top-bar{
     display: block;
-     position:fixed;    
+    position:fixed;    
+}
+
+#profile{
+    border-radius: 50%;
 }
 
 .left-word a:hover{
     z-index: 2;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
+}
+
+.intro-margin{
+     padding-left:50px;
+     padding-top:50px;
 }
 
 a:hover{
