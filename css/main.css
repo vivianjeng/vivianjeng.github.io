@@ -68,7 +68,7 @@ body{
 
 .table{
     position: relative;
-    margin-left: 30%;
+    margin-left: 25%;
     display: inline-block;
     width:70%;
     text-align: left; 
@@ -83,13 +83,11 @@ body{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    align:center;
 }
 
 .contact h2 p{
     width:800px;
     color:black;
-    align:center;
 }
 
 .left-word a{  
