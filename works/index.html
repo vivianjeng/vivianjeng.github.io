@@ -6,13 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ya-wen Jeng's blog</title>
     <link rel="stylesheet" href="../css/main.css">
+    <script type='text/javascript' src="jquery-1.9.1.min.js"></script>
+    <script type='text/javascript'>
+        $(function(){
+        $(window).load(function(){
+        $(window).bind('scroll resize', function(){
+        var $this = $(this);
+        var $this_Top=$this.scrollTop();
+
+        if($this_Top < 100){
+            $('#top-bar').stop().animate({top:"-65px"});
+        }
+        if($this_Top > 100){
+            $('#top-bar').stop().animate({top:"0px"});
+        }
+        }).scroll();
+        });
+        }); 
+</script>
 </head>
 <body>
     <div class="banner">
-        <h2 class="title">Ya-wen, Jeng <span class"chinese">鄭雅文<span> 's Blog </h2>
+        <h2 class="title">Ya-wen, Jeng <span class"chinese">鄭雅文<span> 's Page </h2>
         <h4 class="second">Works</h4>
     </div>
-    <nav class="left">
+    <nav class="left" id="top-bar">
         <div class="left-word">
             <a href="../intro/">About me</a>
             <a href="../resume/">Resume</a>
@@ -29,5 +47,81 @@
             </ul>
         </div>
     </nav>
+    <nav id = "nav">
+        <ul>
+            <li><a href="#section1">Unity Games</a></li>
+            <li><a href="#section2">Photoshop/Illustrator</a></li>
+            <li><a href="#section3">Premiere/Movie Maker</a></li>
+        </ul>
+    </nav>
+   <table class="table">
+       <tr>
+            <td id="section1">
+                <h3>Unity Games</h3>
+                <ul>
+                    <li>
+                        <h4>Roll a Ball</h4>
+                        <a href="https://vivianjeng.github.io/Unity/Roll/">Roll a Ball Game Link</a><br><br>
+                        &nbsp;&nbsp;<a id="button1" href="#"><u>learn more...</u></a>
+                        <section id="more" href="#">
+                            <img src="../images/roll1.png" alt="roll a ball scene" width="70%"><br><br>
+                            <img src="../images/roll2.png" alt="roll a ball scene" width="70%"><br><br>
+                            <img src="../images/roll3.png" alt="roll a ball scene" width="70%">
+                        </section>
+                        &nbsp;&nbsp;<a id="button2" href="#"><u>Show less...</u></a>
+                    </li>
+                    <li>
+                      <h4>Maple Story</h4>
+                        <a href="https://vivianjeng.github.io/Unity/maple%20story/">Maple Story Game Link</a><br><br>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/YbrYrtQ4abM" frameborder="0" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <h4>Kart Racing</h4>
+                        <a href="https://drive.google.com/open?id=0BzS6P2i6w3iveGpiNVBwWVlPRk0">Game Download Link(for Windows)</a><br><br>
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/Bhj-r0bRPZg" frameborder="0" allowfullscreen></iframe>
+                    </li>
+                </ul>
+            </td>
+       </tr>
+       <tr>
+           <td id="section2">
+               <h3>Photoshop/Illustrator</h3>
+               <p>TBA</p>
+           </td>
+       </tr>
+       <tr>
+           <td id="section3">
+               <h3>Premiere/Movie Maker</h3>
+                    <p>Click <a href="https://www.youtube.com/channel/UC0BvlI2ZTnxguTXdd7IvkiQ">here</a> to see more videos.</p>
+                    <ul>
+                        <li>
+                            <h4>NTU CSIE Multimedia Final Project (using Premiere)</h4>
+                            <iframe width="640" height="350" src="https://www.youtube.com/embed/MnTviDqbtlU" frameborder="0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h4>Memorial Film for Junior High School (using Movie Maker)</h4>
+                            <iframe width="640" height="350" src="https://www.youtube.com/embed/v2c7xqiUGF8" frameborder="0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h4>Basketball Team Recruitment Film (using Movie Maker)</h4>
+                            <iframe width="640" height="350" src="https://www.youtube.com/embed/f29wliKyGh0" frameborder="0" allowfullscreen></iframe>
+                        </li>
+                        <li>
+                            <h4>Advertisment Film for Night Activity of Economics Department (using Premiere)</h4>
+                            <iframe width="640" height="350" src="https://www.youtube.com/embed/78-21_el6fs" frameborder="0" allowfullscreen></iframe>
+                        </li>
+                    </ul>
+           </td>
+       </tr>
+   </table>-->
+   <div class="contact" align="center">
+        <p>contact information</p>
+        <p src="b02303042@ntu.edu.tw" >b02303042@ntu.edu.tw
+        <br>
+        0978175180</p>
+   </div>
+
+   <script src="../js/jquery-3.2.1.js"></script>
+   <script src="../js/script.js"></script
 </body>
 </html>

@@ -6,10 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ya-wen Jeng's blog</title>
     <link rel="stylesheet" href="css/main.css">
+    <script type='text/javascript' src="jquery-1.9.1.min.js"></script>
+    <script type='text/javascript'>
+        $(function(){
+        $(window).load(function(){
+        $(window).bind('scroll resize', function(){
+        var $this = $(this);
+        var $this_Top=$this.scrollTop();
+
+        if($this_Top < 100){
+            $('#top-bar').stop().animate({top:"-65px"});
+        }
+        if($this_Top > 100){
+            $('#top-bar').stop().animate({top:"0px"});
+        }
+        }).scroll();
+        });
+        }); 
+</script>
 </head>
 <body>
     <div class="banner">
-        <h2 class="title">Ya-wen, Jeng <span class"chinese">鄭雅文<span> 's Blog </h2>
+        <h2 class="title">Ya-wen, Jeng <span class"chinese">鄭雅文<span> 's Page </h2>
         <h4 class="second">Love Coding, Gaming, and Designing</h4>
         <p></p>
     </div>

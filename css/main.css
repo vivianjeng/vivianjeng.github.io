@@ -74,9 +74,55 @@ body{
     text-align: left; 
 }
 
+#nav{
+    /*position: fixed;*/
+    margin: 0px;
+    width: 100%;
+    top:9em;
+    background-color: #cfe4ff;
+}
+
+#section1 > ul > li > a {
+    text-decoration: none;
+    color: rgb(66, 99, 140);
+}
+
+#section3 > p{
+    color: #6ac1f1;
+}
+
+#section3  > p > a{
+    color: #6ac1f1;
+    text-decoration: none;
+}
+
+#nav ul{
+    text-align: center;
+}
+
+#nav ul li{
+    display: inline-block;
+    padding: 1.35em 0;
+    margin-left: 3em;
+    margin-top: 0;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
 .list{
     position: absolute;
     margin-left:20px;
+}
+
+.down-list{
+    background:#cfe4ff;
+    width: 25%;
+    height: 20%;
+    text-align: center;
 }
 
 .contact{
