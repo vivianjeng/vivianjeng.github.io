@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ya-wen Jeng's blog</title>
+    <title>Ya-wen Jeng's Page</title>
     <link rel="stylesheet" href="../css/main.css">
     <script type='text/javascript' src="jquery-1.9.1.min.js"></script>
     <script type='text/javascript'>
@@ -61,24 +61,105 @@
                 <ul>
                     <li>
                         <h4>Roll a Ball</h4>
-                        <a href="https://vivianjeng.github.io/Unity/Roll/">Roll a Ball Game Link</a><br><br>
+                        <a href="https://vivianjeng.github.io/Unity/Roll/">Roll a Ball Game Link</a><br>
                         &nbsp;&nbsp;<a id="button1" href="#"><u>learn more...</u></a>
-                        <section id="more" href="#">
+                        <section id="more1" href="#section1">
+                            <p>The game is based on <a href="https://unity3d.com/learn/tutorials/projects/roll-ball-tutorial">Unity Official Tutorial</a>.</p>
+                            <p>but I made it more interesting.</p>
                             <img src="../images/roll1.png" alt="roll a ball scene" width="70%"><br><br>
+                            <p>The ground is modified. We can't let the ball fall down the ground.</p>
+                            <p>There are yellow and red balls, if we touch the yellow one, we get one point,</p>
+                            <p>otherwise, we get "You Lose!" words.</p>
                             <img src="../images/roll2.png" alt="roll a ball scene" width="70%"><br><br>
+                            <p>Falling down the ground will cause "You Lose!" words, too.</p>
                             <img src="../images/roll3.png" alt="roll a ball scene" width="70%">
+                            <p>If we get ten yellow balls, we get "You Win!" words.</p>
+                            <br>
+                        <h5>Skills:</h5>
+                        <ul>
+                            <li>Use arrow key to control.</li>
+                            <li>Use OnTriggerEnter() to determine lose or not.</li>
+                            <li>Use "transform.position.y" to determine falling down or not.</li>
+                        </ul>
+                        <br>
+                            <div id = "control">
+                            <h5>How to Play?</h5>
+                            <p>Use Arrow Key to control the white ball.</p>
+                            </div>
                         </section>
-                        &nbsp;&nbsp;<a id="button2" href="#"><u>Show less...</u></a>
+                        &nbsp;&nbsp;<br><a id="button2" href="#"><u>Show less...</u></a>
                     </li>
                     <li>
                       <h4>Maple Story</h4>
-                        <a href="https://vivianjeng.github.io/Unity/maple%20story/">Maple Story Game Link</a><br><br>
+                        <a href="https://vivianjeng.github.io/Unity/maple%20story/">Maple Story Game Link</a><br>
+                        &nbsp;&nbsp;<a id="button3" href="#"><u>learn more...</u></a>
+                        <section id="more2" href="#section1">
+                        <p>The game is based on <a href="https://www.youtube.com/playlist?list=PL0mRmsBTwydnvBM8URJmigP8QeycUommf">Teacher's Tutorial</a>.</p>
                         <iframe width="640" height="360" src="https://www.youtube.com/embed/YbrYrtQ4abM" frameborder="0" allowfullscreen></iframe>
+                        <p>I selected Maple Story's characters and scenes to build this game.</p>
+                        <p>Because I love this kind of mission based RPG games, I created this game,</p>
+                        <p>and made the character solve the mission.</p>
+                        <h5>Mission:</h5>
+                        <ol>
+                            <li>Triggering the NPC.</li>
+                            <li>Collecting 30 mushroom caps from the monster.</li>
+                            <li>Giving the caps to the NPC.</li>
+                        </ol>
+
+                        <h5>Skills:</h5>
+                        <ul>
+                            <li>A pickup to speed up.</li>
+                            <li>A pickup to scale up.</li>
+                            <li>A pickup to gain halo.</li>
+                            <li>A trap to restart the game.</li>
+                            <li>Instantiate monsters.</li>
+                            <li>If we trigger the NPC at different moment, the NPC will say different words.</li>
+                        </ul>
+                        <br>
+                        <div id = "control">
+                        <h5>How to play?</h5>
+                        <p>Use Arrow Key "Right" and "Left" to move right and left.</p>
+                        <p>"Space" to jump</p>
+                        <p>"E" to pick up items</p>
+                        <p>"R" to restart the game</p>
+                        </div>
+                        </section>
+                        &nbsp;&nbsp;<a id="button4" href="#"><u>Show less...</u></a>
                     </li>
                     <li>
                         <h4>Kart Racing</h4>
-                        <a href="https://drive.google.com/open?id=0BzS6P2i6w3iveGpiNVBwWVlPRk0">Game Download Link(for Windows)</a><br><br>
-                        <iframe width="640" height="360" src="https://www.youtube.com/embed/Bhj-r0bRPZg" frameborder="0" allowfullscreen></iframe>
+                        <a href="https://drive.google.com/open?id=0BzS6P2i6w3iveGpiNVBwWVlPRk0">Game Download Link(for Windows)</a><br>
+                        &nbsp;&nbsp;<a id="button5" href="#"><u>learn more...</u></a>
+                        <section id="more3" href="#section1">
+                            <p>This is my "Basic Game Programming" final project.</p>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/Bhj-r0bRPZg" frameborder="0" allowfullscreen></iframe>
+                            <p>The game is inspired by KartRider(跑跑卡丁車),</p>
+                            <p>and the objects are from <a href="https://www.assetstore.unity3d.com/en/#!/content/50095">Unity Asset Store-Stylized Simple Cartoon City</a></p>
+                        <h5>Rules:</h5>
+                        <p>Two players compete racing kart.The first one who finishes the track, he win the game. </p>
+                        <p>There are a lot of gimmicks on the track, and the effects appear in random.</p>
+                        
+                        <h5>Skills:</h5>
+                        <ul>
+                            <li>Items to speed up for 3 seconds.</li>
+                            <li>Items to jump for 3 seconds.</li>
+                            <li>Items to stop for 3 seconds.</li>
+                            <li>Items to attack other player for 3 seconds.</li>
+                            <li>Items to rotate for 3 seconds.</li>
+                            <li>Items to mask oneself for 3 seconds.</li>
+                            <li>Nav mesh agent to walk around.</li>
+                            <li>2D animations creating.</li>
+                            <li>Adding a main menu.</li>
+                        </ul>
+                        <br>
+                        <div id = "control">
+                        <h5>How to play?</h5>
+                        <p>Use Arrow Key "Right" and "Left" to move right and left.</p>
+                        <p>Arrow Key "Up" to move forward, "Down" to move backward.</p>
+                        <p>"R" to restart the game</p>
+                        </div>
+                        </section>
+                        &nbsp;&nbsp;<a id="button6" href="#"><u>Show less...</u></a>
                     </li>
                 </ul>
             </td>
@@ -86,7 +167,112 @@
        <tr>
            <td id="section2">
                <h3>Photoshop/Illustrator</h3>
-               <p>TBA</p>
+               <ul>
+                   <li>
+                        <h4>Photoshop</h4>
+               <table>
+                   <tr>
+                       <td width = "300px">
+                           <h4 style="color: #fd932f;text-align:center;">BEFORE</h4>
+                       </td>
+                       <td width ="30px"></td>
+                       <td width = "300px">
+                            <h4 style="color: #fd932f;text-align:center;">AFTER</h4>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="PS1.jpg" alt="PS1" width="300px">
+                       </td>
+                       <td width ="30px"></td>
+                       <td>
+                           <img src="PS1-1.jpg" alt="PS1-2" width="300px">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="PS2.jpg" alt="PS2" width="300px">
+                       </td>
+                       <td width ="30px"></td>
+                       <td>
+                           <img src="PS2-1.png" alt="PS2-2" width="300px">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="PS3.jpg" alt="PS3" width="300px">
+                       </td>
+                       <td width ="30px"></td>
+                       <td>
+                           <img src="PS3-1.jpg" alt="PS3-2" width="300px">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="PS5.jpg" alt="PS4" width="300px">
+                       </td>
+                       <td width ="30px"></td>
+                       <td>
+                           <img src="PS5-1.png" alt="PS4-2" width="300px">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td colspan="3">
+                            <img src="PS4.png" alt="PS4" width="400px">
+                       </td>
+                   </tr>
+               </table>
+               <br>
+                   </li>
+                   <li>
+                    <h4>Illustrator</h4>
+               <table>
+                   <tr>
+                       <td>
+                            <h4 style="color: #fd932f;text-align:center;">NTU Oreientation Camp T-shirt Design</h4>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="AI1.jpg" alt="AI1" width="500px" align="center">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <h4 style="color: #fd932f;text-align:center;">14th ATCC Proposal</h4>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <img src="AI2.png" alt="AI2" width="600px" align="center">
+                       </td>
+                   </tr>
+               </table>
+                   </li>
+                   <li>
+                       <h4>PhotoImpact</h4>
+                       <table>
+                           <tr>
+                               <td>
+                                   <h4 style="color: #fd932f;text-align:center;">Image Design for Night Activity of Economics Department</h4>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <img src="PI1.jpg" alt="Photoimpact1" align="center">
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <img src="PI2.png" alt="Photoimpact2" width ="600px">
+                               </td>
+                           </tr>
+                       </table>
+                   </li>
+               </ul>
+               
+               
+               
            </td>
        </tr>
        <tr>

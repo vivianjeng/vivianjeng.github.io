@@ -74,6 +74,14 @@ body{
     text-align: left; 
 }
 
+
+#control{
+    background: #d2d2d2;
+    padding: 5px;
+    width: 650px;
+}
+
+
 #nav{
     /*position: fixed;*/
     margin: 0px;
