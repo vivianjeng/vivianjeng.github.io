@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css">
+    <!-- jQuery -->
+    <style type="text/css">
+    img{
+        width:expression(document.body.clientHeight>600?"600px":"auto");
+        overflow:hidden;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Ya-Wen Jeng</a>
+    </nav>
+    
+    <div id="main">
+        <table width="100%" style="height:auto;">     
+            <tr width="80%" >
+                <td style="height:80%">
+                    <div id="mainImg"><img src="dribbble2.jpg" alt="" style="margin:auto;width:50%;height:auto;max-width: 425px;max-height: 600px;min-width:300px;"></div>
+                    <div id = "about" class="content init" style="display:none;">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <h2>About Me</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="profileImg.png" alt="" style="width:100%;max-width:196px">
+                                </td>
+                                <td style="padding:10%;">
+                                    <div style="overflow:scroll;">Name:鄭雅文/Ya-Wen, Jeng<br>
+                                    E-mail:r06922097@ntu.edu.tw<br>
+                        Lab: Communications and Multimedia Laboratory(CMLab)<br> 
+                        Office: NTU CSIE building, Room 506 
+                        </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id = "experience" class="content init" style="display:none;">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <h2>Education</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                     <div><b>Master of Computer Science & Information Engineering</b><br>
+                                         National Taiwan University, Taipei, Taiwan</div>
+                                    <div><b>Bachelor of Economics</b> GPA 3.9/4.3<br>
+                                     National Taiwan University, Taipei, Taiwan</div>
+                                </td>
+                                <td>
+                                    <img id="logo1" src="NTU.png" alt="" style="width:100%; max-width:140px">
+                                </td>
+                            </tr>
+                        </table>
+                                <h2>Experience</h2>
+                                <div style="display:inline-block; padding-bottom:20px; overflow:scroll">
+                                    <div><b>R&D Intern</b><br>
+                                    Etrovision, Taipei, Taiwan</div>
+                                    <div><b>Part-time Student</b><br>
+                                    NTU Speech, Taipei, Taiwan</div>
+                                </div>
+                                 <img src="Etrovision.png" alt="" style="width:100%; max-width:167px;" id="logo2">
+                                
+                                <img src="ntuspeech.png" alt="" style="width:100%; max-width:227px;" id="logo3">
+
+                        </div>
+                    </div>
+                    <div id="works" class="content init" style="display:none;">
+                        <h2>Works</h2>
+                    </div>
+                </td> 
+                </td>
+                <!-- <td class="hidenavbar">
+                        <nav class="contact">
+                                <div><a href="#" id="btnAbout">About</a></div>
+                                <div><a href="#" id="btnExperience">Experience</a></div>
+                                <div><a href="#" id="btnWorks">Works</a></div>
+                                <ul class="soc">
+                                    <li><a class="soc-github" href="https://github.com/vivianjeng"></a>github</li>
+                                    <li><a class="soc-facebook" href="https://www.facebook.com/yawenjengjegn"></a>facebook</li>
+                                    <li><a class="soc-instagram" href="https://www.instagram.com/vivianjeng/"></a>instagram</li>
+                                    <li><a class="soc-linkedin" href="https://www.linkedin.com/in/vvyawenjeng"></a>linkedin</li>
+                                    <li><a class="soc-youtube soc-icon-last" href="https://www.youtube.com/channel/UC0BvlI2ZTnxguTXdd7IvkiQ"></a>youtube</li>
+                                </ul>
+                            </nav>
+                </td>
+                -->
+                <!--<td id="about" style="display: none;">
+                    <h2>About Me</h2>
+                    <div>Name:鄭雅文/Ya-Wen, Jeng<br>
+                        E-mail:r06922097@ntu.edu.tw<br>
+                        Lab: Communications and Multimedia Laboratory(CMLab)<br> 
+                        Office: NTU CSIE building, Room 506 
+                    </div>
+                </td>-->
+            </tr>
+        </table>
+    </div>
+
+    <table width="100%" style="bottom:20px;position:absolute;">
+        <tr width="100%">
+            <td width="33%" style="text-align:center" id="btnAbout">
+                 <img src="btn1.png" alt="" id="btnImg1" style="z-index:1;">
+                <div class="menu" style="z-index:20;">About</div>
+            </td>
+            <td width="34%" style="text-align:center" id="btnExperience">
+                <img src="btn2.png" alt="" id="btnImg2" style="z-index:1;">
+                <div class="menu" style="z-index:20;">Experience</div>
+            </td>
+            <td width="33%" style="text-align:center" id="btnWorks">
+                <img src="btn3.png" alt="" id="btnImg3" style="z-index:1;">
+                <div class="menu" style="z-index:20;">Works</div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="scripts/jquery-3.2.1.js"></script>
+    <script>
+        var isAboutPage = false;
+        var isExperiencePage = false;
+        var isWorksPage = false;
+
+        $("#btnExperience").click(function(){
+            $("#experience").css("display","");
+            $("#about").css("display","none");
+            $("#works").css("display","none");
+            
+        })
+        $("#btnAbout").click(function(){
+            $("#about").css("display","");
+            $("#experience").css("display","none");
+            $("#works").css("display","none");
+        })
+        $("#btnWorks").click(function(){
+            $("#works").css("display","");
+            $("#experience").css("display","none");
+            $("#about").css("display","none");
+        })
+        $('#btnAbout').click(function() {
+            if(!isAboutPage){
+                setTimeout(function() {
+                    $("#mainImg").addClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#about").addClass('AboutIn');
+                }, 0);
+                isAboutPage = true;
+            }
+            else{
+                setTimeout(function() {
+                    $("#mainImg").removeClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#about").removeClass('AboutIn');
+                }, 0);
+                isAboutPage = false;
+            }
+        });
+        $('#btnExperience').click(function() {
+            if(!isExperiencePage){
+                setTimeout(function() {
+                    $("#mainImg").addClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#experience").addClass('AboutIn');
+                }, 0);
+                isExperiencePage = true;
+            }
+            else{
+                setTimeout(function() {
+                    $("#mainImg").removeClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#experience").removeClass('AboutIn');
+                }, 0);
+                isExperiencePage = false;
+            }
+        });
+        $('#btnWorks').click(function() {
+            if(!isWorksPage){
+                setTimeout(function() {
+                    $("#mainImg").addClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#works").addClass('AboutIn');
+                }, 0);
+                isWorksPage = true;
+            }
+            else{
+                setTimeout(function() {
+                    $("#mainImg").removeClass('out');
+                }, 0);
+                setTimeout(function() {
+                    $("#works").removeClass('AboutIn');
+                }, 0);
+                isWorksPage = false;
+            }
+        });
+    </script>
+</body>
+</html>
