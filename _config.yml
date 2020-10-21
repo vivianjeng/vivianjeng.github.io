@@ -48,7 +48,7 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - disqus-for-jekyll
+  # - disqus-for-jekyll
 
 collections:
   pages:
