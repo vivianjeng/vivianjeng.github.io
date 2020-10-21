@@ -3,21 +3,24 @@ layout: page
 title: About
 ---
 
-## Gray - Single column blog and portfolio Jekyll theme 
+### Education
+**National Taiwan University** -- *Taipei, Taiwan (Sep. 2017 - Sep. 2020)*<br />
+    *MSc in Computer Science and Information Engineering*
+- Overall GPA 4.1/4.3, (Rank: Top 28%, 43$^{th}$/153 in the last year)
+<br />
 
-Minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under 3kb. Perfect for your personal website, blog and portfolio.
+**National Taiwan University** -- *Taipei, Taiwan (Sep. 2017 - Sep. 2020)*<br />
+    *BSc in Economics*
+- Overall GPA 3.9/4.3, (Rank: Top 21%, 27$^{th}$/126)
+<br />
 
-### Key features
+**Rheinisch-Westfälische Technische Hochschule Aachen** -- *Aachen, Germany (Sep. 2019 - Aug. 2020)*<br />
+    *Exchange student*
+- Selected courses: IT-Security, Quantum Information
 
-- seo optimized
-- weighs under 3kb
-- portfolio/blog/tag pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
-- json feed
-- http security headers
+---
+
+### Laboratory Experience
+**Embedded Systems and Wireless Networking Lab** -- *Taipei, Taiwan (Aug. 2019 - Nov. 2019)*<br />
+    *Advisor: Prof. Chih-Wen Hsueh (NTU CSIE)*
+- 

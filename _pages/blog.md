@@ -1,4 +1,5 @@
 ---
 layout: blog
-title: Home
+title: Blog
 ---
+

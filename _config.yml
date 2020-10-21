@@ -1,13 +1,13 @@
-site: Gray - Single column blog and portfolio Jekyll theme
-url: # url
-author: # your name
+site: Ya-wen Jeng
+url: github.com/vivianjeng
+author: Ya-wen Jeng
 author:
-  name: # your name
-  email: # your email 
-  url: # url
+  name: Ya-wen Jeng
+  email: ywjeng@cmlab.csie.ntu.edu.tw
+  url: vivianjeng.github.io
   avatar: 
-title: Gray - Single column blog and portfolio Jekyll theme
-description: Gray - Single column blog and portfolio Jekyll theme
+title: Ya-wen Jeng
+description: Ya-wen Jeng
 logo: 
 image: 
 twitter: # twitter 
@@ -16,7 +16,7 @@ twitter:
   creator: # twitter
   card: summary
 social:
-  name: Ronalds Vilcins
+  name: Ya-wen Jeng
   links:
     - https://twitter.com/example
     - https://www.dribbble.com/example
