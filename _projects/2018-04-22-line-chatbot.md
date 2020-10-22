@@ -17,15 +17,15 @@ category: Human Computer Interaction
 ## Functionality
 - **Text/Image sender:** Chatbot responses a specific messages/images according to what the user says
 <p style="text-align:center;">
-<img src="img8.png" alt="Hello!" style="width: 40%;" />
+<img src="img8.PNG" alt="Hello!" style="width: 40%;" />
 </p>
 
 - **Action buttons:** The user can also use an action button to interact with chatbot
 <p style="text-align:center;"> 
-<img src="img9.png" alt="Hello!" style="width: 40%;" />
+<img src="img9.PNG" alt="Hello!" style="width: 40%;" />
 </p>
 
 - **Image carousel:** Chatbot sends a message with multiple column objects that users can cycle through
 <p style="text-align:center;"> 
-<img src="img10.png" alt="Hello!" style="width: 40%;" />
+<img src="img10.PNG" alt="Hello!" style="width: 40%;" />
 </p>
