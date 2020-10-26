@@ -26,12 +26,12 @@ title: About
 **Embedded Systems and Wireless Networking Lab** -- *Taipei, Taiwan (Aug. 2019 - Nov. 2019)*<br />
     *Advisor: Prof. Chih-Wen Hsueh (NTU CSIE)*
 - Implemented zkSNARKs protocol on C-language-based blockchain -- [*Ourchain*](https://ieeexplore.ieee.org/document/8397612)
-- Collaborated a Central Bank Digital Currency (CBDC) project with Central Bank of the Republic of China (Taiwan)
+- Collaborated with Central Bank of the Republic of China (Taiwan) on a Central Bank Digital Currency (CBDC) project
 
 **Communications and Multimedia Lab** -- *Taipei, Taiwan (Aug. 2019 - Nov. 2019)*<br />
     *Advisor: Prof. Ja-Ling Wu (NTU CSIE)*<br/>
     *Research group: Digital Signal Processing group (DSP group)*
-- Surveyed on the privacy and security issues of cryptocurrencies
+- Conducted a survey on the privacy and security issues of cryptocurrencies
 - Built security protocols for multi-party applications on blockchain, such as voting, auction, and for education
 - Contructed a step-by-step scheme for developers to write their smart contracts with reduced transaction cost in Solidity based language *(IEEE SOCA'19)*
 
@@ -40,18 +40,18 @@ title: About
 ### Work Experience
 **Communications and Multimedia Lab** -- *Taipei, Taiwan (Oct. 2020 - now)*<br />
     *Research Assistant*
-- Designed a multiparty protocol with functional encryption scheme to enhance personal privacy in decentralized systems
+- Designed a multi-party protocol with functional encryption scheme to enhance personal privacy in decentralized systems
 - Developed a compiler for Solidity to automatically compile smart contracts into a set of fee-reduced and more secure bytecodes
 
 **Dell Technologies Inc.** -- *Taipei, Taiwan (Jul. 2018 - Aug. 2018)*<br />
     *Software Engineer Intern*
-- Built an internal used tool to synchronize Excel sheets, website data in Python
+- Built an internal used tool to synchronize Excel sheets and website data in Python
 - Used Microsoft Power Bi to visualize data
 
 **Chung-Hsin Electric and Machinery Manufacturing Corp.** -- *Taipei, Taiwan (Jul. 2017 - Oct. 2017)*<br />
     *WEB Intern*
 - Implemented Dijkstras algorithm for searching parking place among 1676 parking lots
-- Used HTML, CSS, Javascript and MS SQL, C# to develop a full-stack website
+- Used HTML, CSS, Javascript, MS SQL and C# to develop a full-stack website
 
 --- 
 
