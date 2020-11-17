@@ -70,7 +70,7 @@ title: About
 - C, C++, C#, Python, R language, MATLAB, JavaScript, Solidity 
 
 **Languages**
-- Chinese(native), English(conversational)
+- Chinese (native), English (conversational)
 
 **Standardized Test Scores**
 - TOEIC − L475, R425

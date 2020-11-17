@@ -11,7 +11,7 @@ category: Blockchain
 
 ## Abstract
 
-Different from traditional programs, which run on local machines or in the clouds, smart contracts run mostly on miners’ devices; moreover, users of smart contracts have to pay fees (i.e., gases in Ethereum) to miners for executing transactions on the blockchain. Lacking of enough experiences in developing smart contracts makes write **low cost** and **high efficiency smart contracts** becoming a very challenging task. In this work, by collating existed approaches and developing new methods for reducing gas consumption, a set of systematical step-by-step guidelines for developing low cost smart contracts is proposed. To prove its usefulness, **ZoKrates verifier**, a very complicated and costly contract, is used to demonstrate how our scheme can effectively cut the gas consumption down.
+Different from traditional programs, which run on local machines or in the clouds, smart contracts run mostly on miners’ devices; moreover, users of smart contracts have to pay fees (i.e., gases in Ethereum) to miners for executing the transactions on the blockchain. Lack of enough experience in developing smart contracts makes writing **low cost** and **highly efficient smart contracts** a very challenging task. During this work, by collating existing approaches and developing new methods for reducing gas consumption, a set of systematical step-by-step guidelines for developing low cost smart contracts is proposed. To prove its usefulness, **ZoKrates verifier**, a very complicated and costly contract, is used to demonstrate how our scheme can effectively decrease the gas consumption.
 
 ![img13.png](img13.png)
 *Figure 1. The workflow of the proposed smart contract smartening scheme for reducing gas consumption*
@@ -105,4 +105,4 @@ Case study **Zokrates verifier contract**
 ## Conclusion
 - We build a step-by-step gas reducing scheme for developers to smarten their Ethereum blockchain based smart contracts
 - To verify the effectiveness of each rule involved in our scheme, we have checked the step-by-step gas reduction achieved by applying the proposed scheme to **ZoKrates verifier contracts**.
-- According to our experiments, we can **save up to 10% gas consumption** in contract deployment, which makes on-chain applications more scalable and more privacy preserv- ing.
+- According to our experiments, we can **save up to 10% gas consumption** in contract deployment, which makes on-chain applications more scalable and more privacy preserving.
