@@ -12,7 +12,7 @@ category: Machine Learning
 Use a RNN model to determine whether a Twitter post is positive or negative, label 1 means positive and label 0 means negative.
 
 <p style="text-align:center;">
-<img src="img25.PNG" alt="Hello!" style="width: 100%;" />
+<img src="img25.png" alt="Hello!" style="width: 100%;" />
 </p>
 
 ## Word embedding

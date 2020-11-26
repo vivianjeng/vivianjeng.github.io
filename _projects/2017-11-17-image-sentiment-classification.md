@@ -12,7 +12,7 @@ category: Machine Learning
 Use a CNN model to classify 7 types of sentiment, which are anger, fear, disgust, surprise, happiness, sadness, and neutral
 
 <p style="text-align:center;">
-<img src="img20.PNG" alt="Hello!" style="width: 100%;" />
+<img src="img20.png" alt="Hello!" style="width: 100%;" />
 </p>
 
 ## CNN model
@@ -21,19 +21,19 @@ Use a CNN model to classify 7 types of sentiment, which are anger, fear, disgust
 - `ZeroPadding2D`: Zero-padding layer for 2D input
 - `MaxPooling2D`: Max pooling operation for 2D spatial data
 <p style="text-align:center;">
-<img src="img21.PNG" alt="Hello!" style="width: 100%;" />
+<img src="img21.png" alt="Hello!" style="width: 100%;" />
 </p>
 
 
 ## Training and Testing Accuracy in a CNN model
 <p style="text-align:center;">
-<img src="img22.PNG" alt="Hello!" style="width: 80%;" />
+<img src="img22.png" alt="Hello!" style="width: 80%;" />
 </p>
 
 ## Compare the accuracy between a DNN and a CNN model
 - A CNN model has better performance in feature detection of images than a DNN model.
 <p style="text-align:center;">
-<img src="img23.PNG" alt="Hello!" style="width: 80%;" />
+<img src="img23.png" alt="Hello!" style="width: 80%;" />
 </p>
 
 ## Confusion matrix between each class
@@ -41,7 +41,7 @@ Use a CNN model to classify 7 types of sentiment, which are anger, fear, disgust
 - "Digest" is easily misunderstood as "angry"
 - "Fear" is easily misunderstood as "sad"
 <p style="text-align:center;">
-<img src="img24.PNG" alt="Hello!" style="width: 80%;" />
+<img src="img24.png" alt="Hello!" style="width: 80%;" />
 </p>
 
 
