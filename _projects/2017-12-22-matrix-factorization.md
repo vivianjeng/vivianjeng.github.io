@@ -1,16 +1,16 @@
 ---
 layout: project
 title: Matrix Factorization
-description: Predict missing values of user-item matrix
-summary: Predict missing values of user-item matrix
+description: Predict missing values of the user-item matrix
+summary: Predict missing values of the user-item matrix
 category: Machine Learning
 ---
 
 [Github Repo](https://github.com/vivianjeng/ML2017FALL/tree/master/hw5)
 
 ## Problem description: 
-- Given the user’s rating history on items, we want to predict the rating of unseen (user,item) pairs.
-- Implement matrix factorization to predict the missing value on user-item matrix.
+- Given the user’s rating history on items, we want to predict the rating of unseen (user, item) pairs.
+- Implement matrix factorization to predict the missing value on the user-item matrix.
 
 ||涼宮春日的憂鬱|4月是你的謊言|科學超電磁砲|
 |--|--|--|--|
@@ -40,7 +40,7 @@ $$r_{ij}=U_i\cdot V_j+b_i^{user}+b_j^{movie}$$
 ## Functions in Keras
 
 1. `keras.layers.Embedding`: the user matrix and item matrix can be viewed as two embedding matrix
-2. `keras.layers.Flatten`: the output tensor shape of embedding layer would be `[batch_size,1,embedding_dim]`, you need this function to reshape the tensor to `[batch_size,embedding_dim]`
+2. `keras.layers.Flatten`: the output tensor shape of the embedding layer would be `[batch_size,1,embedding_dim]`, you need this function to reshape the tensor to `[batch_size,embedding_dim]`
 3. `keras.layers.Dot`:  if applied to two tensors `a` and `b` of shape `(batch_size, n)`, the output will be a tensor of shape `(batch_size, 1)` where each entry `i` will be the dot product between `a[i]` and `b[i]`.
 4. `keras.layers.Add`: add all tensors
 5. `keras.layers.Concatenate`: concatenate two tensors
