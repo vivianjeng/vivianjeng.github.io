@@ -9,11 +9,11 @@ category: Blockchain
 [Doc](https://hackmd.io/@oB2038yeR2SkqPFeR5F5Fg/ByT6cZQG4)
 
 ## Introduction
-Blockchain is a public ledger, which means that all of the data is open to be viewed by others. Recently, **programmability** and **privacy** have become the two main issuess of cryptocurrency. Therefore, we would like to allow users to submit their data with smart contracts while preserving their sensitive data from being revealed.
+Blockchain is a public ledger, which means that all of the data is open to be viewed by others. Recently, **programmability** and **privacy** have become the two main issues of cryptocurrency. Therefore, we would like to allow users to submit their data with smart contracts while preserving their sensitive data from being revealed.
 
 ## Servey
 -  [Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts](https://eprint.iacr.org/2015/675.pdf) in 2016 was the first paper to propose the structure to preserve privacy and programmability at the same time
-- [ZoKrates - Scalable Privacy-Preserving Off-Chain Computations ](https://www.ise.tu-berlin.de/fileadmin/fg308/publications/2018/2018_eberhardt_ZoKrates.pdf) in 2018 provided an offchain toolbox to realize a Zero-knowledge protocol on Ethereum blockchain
+- [ZoKrates - Scalable Privacy-Preserving Off-Chain Computations ](https://www.ise.tu-berlin.de/fileadmin/fg308/publications/2018/2018_eberhardt_ZoKrates.pdf) in 2018 provided an off-chain toolbox to realize a Zero-knowledge protocol on Ethereum blockchain
 
 ## How ZoKrates work
 ![](https://i.imgur.com/pM48URI.jpg)
@@ -23,9 +23,9 @@ Blockchain is a public ledger, which means that all of the data is open to be vi
 ## Ourchain
 - Ourchain is built based on [Bitcoin](https://bitcoin.org/bitcoin.pdf) but with Economically Proof-of-Work protocol and with C-language smart contracts
 
-## Implementaion
-- We used [gmp library](https://gmplib.org/) to implement an elliptic curve which ZoKrates used, but we had difficulites in the function pairing.
-- I fixed this problem in [September, 2019](bncurve-c)
+## Implementation
+- We used [gmp library](https://gmplib.org/) to implement an elliptic curve which ZoKrates used, but we had difficulties in the function pairing.
+- I fixed this problem in [September 2019](bncurve-c)
 
 ## Evaluation
 **Ethereum gas**

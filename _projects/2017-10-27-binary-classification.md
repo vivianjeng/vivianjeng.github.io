@@ -12,7 +12,7 @@ category: Machine Learning
 Determine whether a person makes over 50K a year
 
 <p style="text-align:center;">
-<img src="img19.PNG" alt="Hello!" style="width: 100%;" />
+<img src="img19.png" alt="Hello!" style="width: 100%;" />
 </p>
 
 ## Logistic regression
