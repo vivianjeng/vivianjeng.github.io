@@ -22,46 +22,51 @@ title: About
 
 ---
 
-### Laboratory Experience
+### Research Experience
+
+**Communications and Multimedia Lab** -- *Taipei, Taiwan (Oct. 2020 - now)*<br />
+    *Advisor: Prof. Ja-Ling Wu (NTU CSIE)*<br/>
+    *Research group: Digital Signal Processing group (DSP group)*
+- Designed a multiparty protocol with functional encryption schemes to enhance personal privacy in decentralized systems.
+- Developed a compiler for Solidity to automatically compile smart contracts into a set of fee-reduced and more secure bytecodes.
+
 **Embedded Systems and Wireless Networking Lab** -- *Taipei, Taiwan (Aug. 2019 - Nov. 2019)*<br />
     *Advisor: Prof. Chih-Wen Hsueh (NTU CSIE)*
-- Implemented zkSNARKs protocol on C-language-based blockchain -- [*Ourchain*](https://ieeexplore.ieee.org/document/8397612)
-- Collaborated with Central Bank of the Republic of China (Taiwan) on a Central Bank Digital Currency (CBDC) project
+- Identified the issue of privacy and programmability on blockchain and designed a solution to implement zkSNARKs on Ourchain, a C-based blockchain.
+- Collaborated with the Central Bank of the Republic of China (Taiwan) on a Central Bank Digital Currency (CBDC) project.
+
 
 **Communications and Multimedia Lab** -- *Taipei, Taiwan (Aug. 2019 - Nov. 2019)*<br />
     *Advisor: Prof. Ja-Ling Wu (NTU CSIE)*<br/>
     *Research group: Digital Signal Processing group (DSP group)*
-- Conducted a survey on the privacy and security issues of cryptocurrencies
-- Built security protocols for multi-party applications on blockchain, such as voting, auction, and for education
-- Contructed a step-by-step scheme for developers to write their smart contracts with reduced transaction cost in Solidity based language *(IEEE SOCA'19)*
+- Conducted a survey on the privacy and security issues of cryptocurrencies.
+- Built security protocols for multi-party applications on blockchain, such as voting, auction, time bank, and an educational system.
+- Constructed a step-by-step scheme for developers to write their smart contracts with reduced transaction costs in Solidity based language *(IEEE SOCA19)*.
 
 ---
 
 ### Work Experience
-**Communications and Multimedia Lab** -- *Taipei, Taiwan (Oct. 2020 - now)*<br />
+**National Taiwan University** -- *Taipei, Taiwan (Sep. 2017 - Jan. 2019)*<br />
     *Research Assistant*
-- Designed a multi-party protocol with functional encryption scheme to enhance personal privacy in decentralized systems
-- Developed a compiler for Solidity to automatically compile smart contracts into a set of fee-reduced and more secure bytecodes
+- Taught students how to crawl and analyze data with proper models to obtain insights. Assisted students with practicing R.
+- Corrected assignments and gave feedback to students.
 
 **Dell Technologies Inc.** -- *Taipei, Taiwan (Jul. 2018 - Aug. 2018)*<br />
     *Software Engineer Intern*
-- Built an internal used tool to synchronize Excel sheets and website data in Python
-- Used Microsoft Power Bi to visualize data
+- Built a tool for internal use to synchronize Excel sheets and website data in Python.
+- Presented the project in English to 50+ staff, including the vice president of the company.
 
 **Chung-Hsin Electric and Machinery Manufacturing Corp.** -- *Taipei, Taiwan (Jul. 2017 - Oct. 2017)*<br />
     *WEB Intern*
-- Implemented Dijkstras algorithm for searching parking place among 1676 parking lots
-- Used HTML, CSS, Javascript, MS SQL and C# to develop a full-stack website
+- Implemented Dijkstras algorithm for searching for available parking places among 1676 parking lots.
+- Used HTML, CSS, JavaScript, C#, and MS SQL to develop a full-stack website.
+- Participated in document processing and regular meetings with clients.
 
 --- 
 
 ### Leadership Experience
 **Communications and Multimedia Lab** -- *Taipei, Taiwan (Sep. 2018 - Aug. 2019)*<br />
     *Project Leader of Digital Signal Processing group*
-
-**National Taiwan University** -- *Taipei, Taiwan (2017 Fall, 2018 Fall)*<br />
-    *Teaching Assistant*<br />
-    *Course: Data Science and Social Inquiry*
 
 ---
 
@@ -70,8 +75,4 @@ title: About
 - C, C++, C#, Python, R language, MATLAB, JavaScript, Solidity 
 
 **Languages**
-- Chinese (native), English (conversational)
-
-**Standardized Test Scores**
-- TOEIC − L475, R425
-- TOEFL iBT − R25, L27, S20, W22
+- Chinese (native), English (fluent)
